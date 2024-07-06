@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/X-icon" href="877.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML tables</title>
+    <style>
+        table,
+        th,
+        td,
+        tfoot {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>COLLEGE STUDENT LIST</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    snum
+                </th>
+                <th>
+                    College Name
+                </th>
+                <th>
+                    Student Name
+                </th>
+                <th>
+                    ROLL Num
+                </th>
+                <th>
+                    Marks
+                </th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <th rowspan="5">XYZ college</th>
+                <td>Lakshmi</td>
+                <td>101</td>
+                <td>95</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Suneetha</td>
+                <td>102</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Mounika</td>
+                <td>103</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Yamika</td>
+                <td>104</td>
+                <td>95</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Sailu</td>
+                <td>105</td>
+                <td>95</td>
+            </tr>
+
+        </tbody>
+    </table>
+    <tfoot>
+        <tr>
+            <td colspan="5">totalstudents</td>
+            <td>5</td>
+        </tr>
+
+    </tfoot>
+
+</body>
+
+</html>
